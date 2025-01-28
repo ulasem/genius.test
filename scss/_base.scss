@@ -1,0 +1,39 @@
+/* main */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-light);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+a {
+    display: inline-block;
+}
+
+address {
+    font-style: normal;
+}

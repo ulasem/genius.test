@@ -1,0 +1,28 @@
+.formats-section {
+
+    &__title {
+        margin-bottom: 80px;
+    }
+
+    &__container {
+     display: flex;
+     align-items: center;
+     gap: 32px;
+    }
+
+    &__list {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     gap: 20px;
+    }
+
+    &__item {
+    //  position: relative;
+     flex-basis: calc(100% - 40px / 3);
+
+    &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
