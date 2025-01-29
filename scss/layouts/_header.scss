@@ -1,29 +1,29 @@
 .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-top: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 32px;
 
-    &__container {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-    }
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 
-    &__nav {
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
-        gap: 40px;
-    }
+  &__nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
 
-   &__list {
-       margin: 0;
-       padding: 0;
-       display: flex;
-       flex-grow: 1;
-       gap: 64px;
-       justify-content: center;
-   }
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    gap: 64px;
+    justify-content: center;
+  }
 }
