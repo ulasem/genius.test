@@ -11,13 +11,13 @@
   border: 1px solid;
   cursor: pointer;
   flex-shrink: 0;
-}
 
-.carousel-button:hover {
-  background-color: var(--color-primary-dark);
-  fill: var(--color-primary-light);
-}
+  &.next {
+    transform: rotate(180deg);
+  }
 
-.carousel-button.next {
-  transform: rotate(180deg);
+  &:hover {
+    background-color: var(--color-primary-dark);
+    fill: var(--color-primary-light);
+  }
 }
